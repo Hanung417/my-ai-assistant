@@ -98,7 +98,7 @@ npm install
 ```
 # 백엔드 서버
 cd backend
-uvicorn main:app --reload::8000
+uvicorn main:app --reload --port 8000
 
 # 프론트엔드 서버
 cd ..
