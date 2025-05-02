@@ -91,7 +91,9 @@ cd ../backend
 npm install
 
 # 프론트엔드
-cd ../frontend
+cd ..
+npm install
+cd frontend
 npm install
 ```
 ### 4. 실행
@@ -102,7 +104,7 @@ uvicorn main:app --reload --port 8000
 
 # 프론트엔드 서버
 cd ..
-npm run dev
+npm start
 ```
 ---
 
