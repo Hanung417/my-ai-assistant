@@ -49,12 +49,40 @@
 - [x] Stable Diffusion 모델 선정 (`waifu-diffusion`)
 - [x] JWT 기반 로그인 구현 (SQLite → PostgreSQL 전환 중)
 - [x] Sora 스타일 캐릭터 생성 구조 설정
-- [ ] Long-term Memory 자동 저장/요약 기능 개발
-- [ ] Google Calendar 연동
+- [x] Long-term Memory 자동 저장/요약 기능 개발
+- [x] Google Calendar 연동
 - [ ] 프론트 UI 개발 (React + Three.js)
 - [ ] 기억 기반 응답 로직 연결
 
 ---
 
 ## 📁 폴더 구조 (예시)
+/luckyGPT
+├── backend/
+│ ├── controllers/
+│ ├── routes/
+│ ├── models/
+│ └── ...
+├── frontend/
+│ ├── components/
+│ ├── pages/
+│ └── ...
+└── README.md
+
+---
+
+## 🧑‍💻 기여/계획
+
+- ✅ 혼자서 MVP 1차 개발
+- 🔄 기능별 모듈화 및 협업 고려 예정
+- 🧪 단위 테스트 및 배포 준비 예정
+
+---
+
+## 📎 기타
+
+- 캐릭터 생성: 로컬 Stable Diffusion 실행 (hakurei/waifu-diffusion 사용)
+- 향후 목표: 음성 인식, 스마트 홈 연동, 다중 유저 기억 구분 등 확장
+
+---
 
