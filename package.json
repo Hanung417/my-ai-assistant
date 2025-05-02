@@ -1,0 +1,15 @@
+{
+  "name": "my-ai-assistant",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "concurrently \"npm run electron\" \"cd frontend && npm start\"",
+    "electron": "electron .",
+    "build": "cd frontend && npm run build && electron-builder"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "electron": "^29.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
