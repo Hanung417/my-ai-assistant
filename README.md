@@ -70,6 +70,42 @@
 └── README.md
 
 ---
+## 🧰 이용 방법 (Getting Started)
+### 1. 프로젝트 클론
+```
+bash
+git clone https://github.com/your-username/luckyGPT.git
+cd luckyGPT
+```
+### 2. 환경 변수 설정
+```
+JWT_SECRET=your_jwt_secret
+DATABASE_URL=postgres://username:password@localhost:5432/luckygpt
+GOOGLE_CALENDAR_API_KEY=your_google_calendar_key
+OPENWEATHER_API_KEY=your_weather_api_key
+```
+### 3. 의존성 설치
+```
+# 백엔드
+cd ../backend
+npm install
+
+# 프론트엔드
+cd ../frontend
+npm install
+```
+### 4. 실행
+```
+# 백엔드 서버
+cd backend
+uvicorn main:app --reload::8000
+
+# 프론트엔드 서버
+cd ..
+npm run dev
+```
+---
+
 
 ## 🧑‍💻 기여/계획
 
